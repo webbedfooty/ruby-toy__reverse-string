@@ -17,12 +17,12 @@ end
 reverse_characters = backward.join
 end
 
-puts " "
-puts "Give me a string of characters - Let's keep it under 25 total"
-puts " "
-forward = gets.chomp
+# puts " "
+# puts "Give me a string of characters - Let's keep it under 25 total"
+# puts " "
+# forward = gets.chomp
 
-reversed = reverse_characters(forward)
+# reversed = reverse_characters(forward)
 
 
 #Part 2
@@ -45,9 +45,9 @@ end
 reverse_words = words_backward_step_two.join(" ")
 end
 
-puts " "
-puts "Give me a string of words - Like four or five short ones"
-puts " "
-words_forward = gets.chomp
+# puts " "
+# puts "Give me a string of words - Like four or five short ones"
+# puts " "
+# words_forward = gets.chomp
 
-reversed = reverse_words(words_forward)
+# reversed = reverse_words(words_forward)
